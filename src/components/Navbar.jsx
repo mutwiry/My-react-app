@@ -1,5 +1,6 @@
 // src/components/Navbar.jsx
 import { Link } from 'react-router-dom';
+import ThemeSwitcher from '../contexts/ThemeSwitcher'; // Import
 
 export default function Navbar() {
   return (
@@ -10,7 +11,7 @@ export default function Navbar() {
           <Link to="/" className="text-gray-600 dark:text-gray-300 hover:text-blue-500">Home</Link>
           <Link to="/tasks" className="text-gray-600 dark:text-gray-300 hover:text-blue-500">Task Manager</Link>
           <Link to="/api-data" className="text-gray-600 dark:text-gray-300 hover:text-blue-500">API Data</Link>
-          {/* Theme Switcher will go here later */}
+          <ThemeSwitcher />
         </div>
       </div>
     </nav>
