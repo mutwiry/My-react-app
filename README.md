@@ -4,7 +4,7 @@ This project is a responsive React application built with Vite and styled with T
 
 ## Live Demo
 
-[Link to your deployed application on GitHub Pages](https://vincent-1999.github.io/Week-3-Assignment/)
+[Link to your deployed application on netflify/vercel](https://my-react-app-sand-eight.vercel.app/)
 
 ## Features
 - Reusable UI Components (Button, Card, Layout)
@@ -43,7 +43,7 @@ This project is a responsive React application built with Vite and styled with T
 ## Screenshots
 
 ### Light Mode
-![App in Light Mode](src/assets/Screenshots/Light mode.png)
+![App in Light Mode](./src/assets/Screenshots/Light mode.png)
 
 ### Dark Mode
-![App in Dark Mode](src/assets/Screenshots/Dark mode.png)
+![App in Dark Mode](./src/assets/Screenshots/Dark mode.png)
